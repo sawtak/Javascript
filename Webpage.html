@@ -1,0 +1,157 @@
+<html>
+    <head>
+        <title>Registration</title>
+        <style>
+             body
+            {
+                background-color: lemonchiffon;
+            }
+            #sec
+            {
+            background-color: aquamarine;
+            
+                position: absolute;
+                width: 750px;
+                height: 200px;
+            
+            }
+            
+
+            #Name
+            {
+                position: absolute;
+                left: 50px;
+            }
+            #Pass
+            {
+                position: absolute;
+                left: 50px;
+                top:60px
+            }  
+            
+
+
+            #Fpass
+            {
+                margin-left:auto;
+                
+            }
+            #submit
+            {
+                position: absolute;
+                left: 190px;
+                top: 170px; 
+            }
+            #reset
+            {
+              position: absolute;
+              left: 250px;
+              top: 170px;
+
+            }
+            #check
+            {
+                position: absolute;
+                left: 10px;
+                top: 170px   
+            }
+            #label
+            {
+                position: absolute;
+                left: 30px;
+                top: 170px;
+            }
+           
+          
+           
+            #Preset
+            {
+              position: absolute;
+              left: 430px;
+              top: 170px;
+
+            }
+
+            #welcome1
+            {
+                position: absolute;
+                top:40px;
+                width: 400px;
+                left: 30px;
+            }
+
+            #welcome2
+            {
+                position: absolute;
+                width: 400px;
+                left: 30px;
+                top: 100px;
+            }
+           
+           
+
+            
+           
+        </style>
+    </head>
+    <body >
+        
+
+
+        <h1 style="text-align:center">Registration Page</h1>
+        <form id="start" method="get" action="Code.js">
+           
+
+                <div style="text-align: center ;border-style:s;"  id="sec">
+
+                    <p style="color:darkslategray;" id="Name">User Name</p><!-- UserName Section id=Name -->
+                    <input type="text" id="Welcome1" style="width:500px;">
+
+                    <p style="color: darkslategray;" id="Pass">Password</p><!-- Password Section  id=Pass-->
+                    <input type="text" id="Welcome2" style="width:500px;"><br>
+                    <br>
+
+                    <button type="submit" id="submit" onclick="mydetails()">Login</button>  <!-- Button Section id=submit -->
+                
+                    
+                    
+                    
+                    <button type="reset" id="reset">Reset</button><br> <!-- Reset Section  id=reset-->
+
+                    <input type="checkbox";  id="check"> 
+                    <label for="check" id="label">Remember me</label><!-- rember me  Section id=label-->
+
+                    <a href="Password Reset" id="Preset">Password Reset</a> <!-- Link to reset  id=Preset-->
+              
+                   <p id="result" style="color:darkmagenta;"></p>
+                
+                    
+
+                    <script>
+                      function mydetails() 
+                       {
+                      var a=document.getElementById("Welcome1").value;
+                    var b= document.getElementById("Welcome2").value;
+                        document.write("The value of User Name and Password "+" : "+a+" "+ "and"+" "+b) 
+               
+                        
+                       }
+                    
+                        
+                      
+                    </script>
+                    
+                    
+                    
+                    
+        
+    
+    
+            </div>
+            
+        </form>
+        
+
+        
+    </body>
+</html>

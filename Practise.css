@@ -1,0 +1,57 @@
+
+/* .Main
+{
+    background-color: aqua;
+    position: absolute;
+    top:40px;
+    width: 500px ;
+} */
+
+.body
+{
+    
+}
+
+.Box1
+{
+    
+   border-style: solid;
+   height:60px;
+   border-width: 4px;
+   margin-top: 100PX;
+   margin-left: 50PX ;
+   margin-right: 50PX ;  
+   outline-style: solid;
+   outline-color: blue;
+   outline-width: 10PX;
+   outline-offset: 15PX;
+   display:;
+   
+  
+   
+   
+
+}
+
+/* .Box2
+{
+    
+   border-style:double;
+   height: 100px;
+   border-width: 5px;
+  
+   
+   
+}
+
+.Box3
+{
+    
+ background-color: grey;
+ border-style: solid;
+ border-color: green;
+ border-width: 10PX;
+ margin: 10PX;
+ padding: 40PX;
+
+} */
